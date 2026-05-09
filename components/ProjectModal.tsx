@@ -55,7 +55,7 @@ export default function ProjectModal({ project, onClose }: Props) {
               <X className="w-5 h-5" />
             </button>
 
-            <div className="relative -mt-12 px-6 sm:px-10 pb-10">
+            <div className="relative -mt-12 px-6 sm:px-10 pb-10 pt-10">
               <div className="relative w-full aspect-[16/9] rounded-2xl overflow-hidden">
                 <ProjectArtwork
                   title={project.title}
